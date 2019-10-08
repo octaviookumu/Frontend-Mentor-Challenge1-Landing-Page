@@ -1,0 +1,174 @@
+@import "https://fonts.googleapis.com/css?family=Poppins&display=swap";
+
+body {
+	margin: 0;
+	max-width: 1440px;
+	background: url("/Challenge/images/bg-intro-desktop.png")center/cover no-repeat;
+	background-color: lightgrey;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	margin: 10rem;
+	display: flex;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin-left: 6rem;
+	margin-right: 6rem;
+	background: url("/Challenge/images/bg-intro-desktop.png")center/cover no-repeat;
+	background-color: hsl(0, 100%, 74%);
+	padding-left: 6rem;
+	padding-right: 4rem;
+}
+
+.content {
+	color: #fff;
+	margin-top: 17%;
+}
+.content h1 {
+	font-size: 3.5rem;
+}
+.sign-up {
+	margin-top: -5em;
+}
+.btn button {
+	background: #6055a5;
+	outline: none;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 29rem;
+	padding: 1rem;
+	color: #fff;
+	text-align: center;
+	box-shadow: 0px 6px 5px 0px rgba(97, 90, 97, 0.69);
+}
+.font-800 {
+	font-weight: 800;
+}
+.font-100 {
+	font-weight: 100;
+}
+.btn button:active {
+	box-shadow: none;
+}
+.form {
+	position: relative;
+	background: #fff;
+	margin-top: 1em;
+	padding: 3em;
+	border-radius: 5px;
+	box-shadow: 0px 6px 5px 0px rgba(97, 90, 97, 0.69);
+}
+.form input {
+	position: relative;
+	border: 1px solid #efefef;
+	border-radius: 5px;
+	display: block;
+	padding: 1rem;
+	width: 20rem;
+	outline: none;
+}
+.form input[placeholder]:hover {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+.form input:nth-child(n + 2) {
+	margin-top: 1rem;
+}
+.form input::placeholder {
+	font-weight: 600;
+	font-size: 14px;
+}
+.button {
+	background: hsl(154, 59%, 51%);
+	padding: 1rem;
+	border-radius: 5px;
+	margin-top: 1rem;
+	color: #fff;
+	font-size: 16px;
+	width: 22.2rem;
+	border: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	cursor: pointer;
+	box-shadow: 0 4px hsl(246, 25%, 77%);
+}
+.sign-up .form .button:active {
+	background-color: hsl(152, 7%, 47%);
+}
+.sign-up .form .button:hover {
+	background-color: hsl(151, 82%, 79%);
+	box-shadow: 0 3px rgb(129, 172, 148);
+	top: 2px;
+}
+
+.sign-up .form p {
+	font-size: 10px;
+	text-align: center;
+	font-weight: 100;
+	color: #cdcad2;
+}
+.sign-up .form p a {
+	text-decoration: none;
+	font-weight: 900;
+	color: #c54c52;
+}
+.content {
+	text-align: left;
+	margin-right: 2rem;
+}
+.content h1 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+.sign-up {
+	margin: 2rem;
+}
+
+.sign-up .btn {
+	text-align: center;
+}
+.sign-up .btn button {
+	width: 29rem;
+	text-align: center;
+}
+
+.attribution {
+	text-align: center;
+	color: rgb(20, 19, 19);
+}
+.attribution a {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.sign-up .form span {
+	font-size: 10px;
+	display: block;
+	text-align: right;
+	width: 22rem;
+	color: #c54c52;
+	font-weight: 900;
+}
+
+.invalid-form-text {
+	background: url(/Challenge/images/icon-error.svg);
+	background-position: 95%;
+	background-repeat: no-repeat;
+	border: 2px solid #c54c52;
+	color: #c54c52;
+}
+
+.holder-color::placeholder {
+	color: #c54c52;
+}
+.holder-color {
+	background: url(/Challenge/images/icon-error.svg);
+	background-position: 95%;
+	background-repeat: no-repeat;
+}
+
+/* Media Queries */
