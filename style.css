@@ -5,14 +5,14 @@
 }
 
 body {
-	background: url("/Challenge/images/bg-intro-desktop.png")center/cover no-repeat;
+	background: url("/images/bg-intro-desktop.png")center/cover no-repeat;
 	background-color: lightgrey;
 	font-family: 'Poppins', sans-serif;
 	max-height: 100vh;
 }
 
 .container {
-	background: url("/Challenge/images/bg-intro-desktop.png")center/cover no-repeat;
+	background: url("/images/bg-intro-desktop.png")center/cover no-repeat;
 	background-color: hsl(0, 100%, 74%);
 	max-width: 90%;
 	display: grid;
@@ -149,7 +149,7 @@ body {
 }
 
 .invalid-form-text {
-	background: url(/Challenge/images/icon-error.svg);
+	background: url("/images/icon-error.svg");
 	background-position: 95%;
 	background-repeat: no-repeat;
 	border: 2px solid #c54c52;
@@ -160,7 +160,7 @@ body {
 	color: #c54c52;
 }
 .holder-color {
-	background: url(/Challenge/images/icon-error.svg);
+	background: url("/images/icon-error.svg");
 	background-position: 95%;
 	background-repeat: no-repeat;
 }
@@ -180,7 +180,7 @@ body {
 
 @media screen and (max-width: 800px) {
 	body {
-		background: url("/Challenge/images/bg-intro-desktop.png")center/cover no-repeat;
+		background: url("/images/bg-intro-desktop.png")center/cover no-repeat;
 		background-color: hsl(0, 100%, 74%);
 	}
 	.container {
@@ -190,7 +190,7 @@ body {
 }
 @media screen and (max-width: 520px) {
 	body {
-		background: url("/Challenge/images/bg-intro-mobile.png")center/cover no-repeat;
+		background: url("/images/bg-intro-mobile.png")center/cover no-repeat;
 		background-color: hsl(0, 100%, 74%);
 	}
 	.container {
